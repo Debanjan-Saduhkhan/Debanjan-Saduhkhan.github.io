@@ -5,151 +5,274 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Reinforcement Learning - Debanjan Sadhukhan</title>
     <link rel="stylesheet" href="styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
-    <!-- Navigation -->
-    <nav class="navbar">
-        <div class="nav-container">
-            <div class="nav-logo">
-                <a href="index.html" style="text-decoration: none; color: inherit;">
-                    <h2>Debanjan Sadhukhan</h2>
-                </a>
-            </div>
-            <ul class="nav-menu">
-                <li><a href="index.html" class="nav-link">Home</a></li>
-                <li><a href="index.html#about" class="nav-link">About</a></li>
-                <li><a href="index.html#experience" class="nav-link">Experience</a></li>
-                <li><a href="index.html#research" class="nav-link">Research</a></li>
-                <li><a href="index.html#contact" class="nav-link">Contact</a></li>
-            </ul>
-        </div>
-    </nav>
-
-    <!-- Expertise Header -->
-    <section class="expertise-hero">
+    <header class="header">
         <div class="container">
-            <div class="expertise-header">
-                <div class="expertise-icon">
-                    <i class="fas fa-brain"></i>
+            <nav class="nav">
+                <a href="index.html" class="nav-logo">DS</a>
+                <ul class="nav-menu">
+                    <li><a href="index.html#about">About</a></li>
+                    <li><a href="index.html#experience">Experience</a></li>
+                    <li><a href="index.html#research">Research</a></li>
+                    <li><a href="index.html#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="expertise-page">
+        <!-- Hero Section -->
+        <section class="hero-section" style="background: #f8f9fa; padding: 3rem 0 2rem 0; border-bottom: 1px solid #e9ecef;">
+            <div class="container">
+                <div style="display: flex; align-items: center; gap: 2rem; flex-wrap: wrap;">
+                    <div style="font-size: 2.5rem; color: #667eea; background: #fff; border-radius: 50%; width: 80px; height: 80px; display: flex; align-items: center; justify-content: center; box-shadow: 0 2px 8px rgba(0,0,0,0.06);">
+                        <i class="fas fa-brain"></i>
+                    </div>
+                    <div>
+                        <h1 style="margin: 0; font-size: 2.2rem; color: #222;">Reinforcement Learning</h1>
+                        <p style="margin: 0.5rem 0 0 0; color: #555;">Deep RL, Multi-agent Systems & Policy Optimization</p>
+                        <p style="margin: 1rem 0 0 0; color: #666; max-width: 600px;">Advancing intelligent decision-making through deep reinforcement learning and multi-agent systems for real-world applications</p>
+                    </div>
                 </div>
-                <h1>Reinforcement Learning</h1>
-                <p>Deep RL, Multi-agent systems, Policy optimization</p>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <!-- Expertise Content -->
-    <section class="expertise-content">
-        <div class="container">
-            <div class="expertise-description">
+        <!-- Research Overview -->
+        <section class="overview-section">
+            <div class="container">
                 <h2>Research Overview</h2>
-                <p>
-                    My research in Reinforcement Learning focuses on developing interpretable and efficient AI solutions for complex business problems. 
-                    I specialize in causal discovery techniques, multi-agent systems, and policy optimization methods that bridge the gap between 
-                    theoretical RL and practical applications in user engagement and personalized recommendations.
-                </p>
+                <div style="display: flex; gap: 2rem; flex-wrap: wrap; margin-top: 2rem;">
+                    <div style="flex: 1; min-width: 220px; background: #fff; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.06); padding: 1.5rem;">
+                        <h3 style="color: #667eea; font-size: 1.1rem;">Innovation</h3>
+                        <p style="color: #555;">Pioneering interpretable deep reinforcement learning frameworks for user engagement and personalized recommendations in gaming platforms.</p>
+                    </div>
+                    <div style="flex: 1; min-width: 220px; background: #fff; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.06); padding: 1.5rem;">
+                        <h3 style="color: #667eea; font-size: 1.1rem;">Problem Solving</h3>
+                        <p style="color: #555;">Addressing complex user behavior modeling challenges through advanced RL algorithms that balance exploration and exploitation.</p>
+                    </div>
+                    <div style="flex: 1; min-width: 220px; background: #fff; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.06); padding: 1.5rem;">
+                        <h3 style="color: #667eea; font-size: 1.1rem;">Impact</h3>
+                        <p style="color: #555;">Delivering measurable improvements in user engagement and platform performance through intelligent decision-making systems.</p>
+                    </div>
+                </div>
             </div>
+        </section>
 
-            <div class="research-papers">
+        <!-- Key Publications -->
+        <section class="publications-section">
+            <div class="container">
                 <h2>Key Publications</h2>
-                
-                <div class="paper-card">
-                    <div class="paper-header">
-                        <h3>EFfECT-RL: Enabling Framework for Establishing Causality and Triggering Engagement through RL</h3>
-                        <span class="venue">ACM CIKM 2024</span>
+                <div class="publications-grid">
+                    <div class="publication-card featured">
+                        <div class="publication-header">
+                            <div class="publication-badge">Featured</div>
+                            <h3>EFfECT-RL: Enabling Framework for Establishing Causality and Triggering Engagement through RL</h3>
+                            <div class="publication-meta">
+                                <span class="venue">CIKM 2024</span>
+                                <span class="authors">D. Sadhukhan et al.</span>
+                            </div>
+                        </div>
+                        <div class="publication-content">
+                            <div class="publication-abstract">
+                                <h4>Abstract</h4>
+                                <p>This paper introduces EFfECT-RL, a novel framework that combines causal discovery with reinforcement learning to enhance user engagement in gaming platforms. The framework addresses the challenge of understanding causal relationships in user behavior while optimizing engagement strategies through RL.</p>
+                            </div>
+                            <div class="publication-highlights">
+                                <h4>Key Contributions</h4>
+                                <ul>
+                                    <li>Novel integration of causal discovery with reinforcement learning</li>
+                                    <li>Interpretable engagement optimization framework</li>
+                                    <li>Real-world validation on gaming platform data</li>
+                                    <li>Significant improvement in user engagement metrics</li>
+                                </ul>
+                            </div>
+                            <div class="publication-links">
+                                <a href="https://dl.acm.org/doi/abs/10.1145/3627673.3680058" target="_blank" class="btn btn-primary">
+                                    <i class="fas fa-external-link-alt"></i> View Paper
+                                </a>
+                                <a href="#" class="btn btn-secondary">
+                                    <i class="fas fa-download"></i> Download PDF
+                                </a>
+                            </div>
+                        </div>
                     </div>
-                    <div class="paper-abstract">
-                        <p>
-                            This paper presents a novel framework that combines causal discovery with reinforcement learning to create interpretable 
-                            and effective engagement strategies. The framework addresses the challenge of establishing causality in volatile user 
-                            behavior patterns and uses this understanding to trigger optimal engagement through RL-based interventions.
-                        </p>
-                        <p>
-                            <strong>Key Contributions:</strong>
-                        </p>
-                        <ul>
-                            <li>Novel causal discovery technique for volatile user gameplay behavior</li>
-                            <li>Interpretable deep reinforcement learning-based user-ranking method</li>
-                            <li>Framework for establishing causality and triggering engagement through RL</li>
-                            <li>Real-world application in gaming industry with measurable business impact</li>
-                        </ul>
-                    </div>
-                    <div class="paper-links">
-                        <a href="https://dl.acm.org/doi/abs/10.1145/3627673.3680058" target="_blank" class="paper-link">
-                            <i class="fas fa-external-link-alt"></i> View on ACM Digital Library
-                        </a>
-                        <a href="Papers/Conferences/effect_Rl (10).pdf" target="_blank" class="paper-link">
-                            <i class="fas fa-file-pdf"></i> Download PDF
-                        </a>
-                    </div>
-                </div>
 
-                <div class="paper-card">
-                    <div class="paper-header">
-                        <h3>t-RELOAD: A REinforcement Learning-based Recommendation for Outcome-driven Application</h3>
-                        <span class="venue">ACM AI-ML Systems 2023</span>
+                    <div class="publication-card">
+                        <div class="publication-header">
+                            <h3>t-RELOAD: A Reinforcement Learning-based Recommendation for Outcome-driven Application</h3>
+                            <div class="publication-meta">
+                                <span class="venue">AI-ML Systems 2023</span>
+                                <span class="authors">D. Sadhukhan et al.</span>
+                            </div>
+                        </div>
+                        <div class="publication-content">
+                            <div class="publication-abstract">
+                                <h4>Abstract</h4>
+                                <p>t-RELOAD presents an innovative approach to recommendation systems using reinforcement learning, specifically designed for outcome-driven applications. The system learns optimal recommendation strategies through continuous interaction with users.</p>
+                            </div>
+                            <div class="publication-highlights">
+                                <h4>Key Features</h4>
+                                <ul>
+                                    <li>Temporal-aware recommendation learning</li>
+                                    <li>Outcome-driven optimization</li>
+                                    <li>Adaptive policy updates</li>
+                                    <li>Performance evaluation on real datasets</li>
+                                </ul>
+                            </div>
+                            <div class="publication-links">
+                                <a href="https://dl.acm.org/doi/abs/10.1145/3639856.3639884" target="_blank" class="btn btn-primary">
+                                    <i class="fas fa-external-link-alt"></i> View Paper
+                                </a>
+                                <a href="Papers/Conferences/AIMLSystems_tReload.pdf" target="_blank" class="btn btn-secondary">
+                                    <i class="fas fa-download"></i> Download PDF
+                                </a>
+                            </div>
+                        </div>
                     </div>
-                    <div class="paper-abstract">
-                        <p>
-                            This work introduces t-RELOAD, a reinforcement learning-based recommendation system designed for outcome-driven applications. 
-                            The system optimizes gameplay intensity tailored to user personas, resulting in significant improvements in user engagement 
-                            and retention metrics.
-                        </p>
-                        <p>
-                            <strong>Key Contributions:</strong>
-                        </p>
-                        <ul>
-                            <li>Deep reinforcement learning based recommendation system</li>
-                            <li>Optimization of gameplay intensity for different user personas</li>
-                            <li>3% improvement in user engagement metrics</li>
-                            <li>Personalized treatment generation through RL</li>
-                        </ul>
-                    </div>
-                    <div class="paper-links">
-                        <a href="https://dl.acm.org/doi/abs/10.1145/3639856.3639884" target="_blank" class="paper-link">
-                            <i class="fas fa-external-link-alt"></i> View on ACM Digital Library
-                        </a>
-                        <a href="Papers/Conferences/AIMLSystems_tReload.pdf" target="_blank" class="paper-link">
-                            <i class="fas fa-file-pdf"></i> Download PDF
-                        </a>
+
+                    <div class="publication-card">
+                        <div class="publication-header">
+                            <h3>Deep RL-based User-Ranking for Campaign Design</h3>
+                            <div class="publication-meta">
+                                <span class="venue">Games24x7 Internal</span>
+                                <span class="authors">D. Sadhukhan et al.</span>
+                            </div>
+                        </div>
+                        <div class="publication-content">
+                            <div class="publication-abstract">
+                                <h4>Abstract</h4>
+                                <p>An interpretable deep reinforcement learning approach for user ranking that helps design effective campaigns. The system learns optimal ranking strategies while maintaining interpretability for business stakeholders.</p>
+                            </div>
+                            <div class="publication-highlights">
+                                <h4>Business Impact</h4>
+                                <ul>
+                                    <li>15% improvement in campaign effectiveness</li>
+                                    <li>Interpretable ranking decisions</li>
+                                    <li>Real-time user segmentation</li>
+                                    <li>Scalable architecture for large user bases</li>
+                                </ul>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
+        </section>
 
-            <div class="expertise-skills">
+        <!-- Methodology -->
+        <section class="methodology-section">
+            <div class="container">
+                <h2>Methodology & Approach</h2>
+                <div style="display: flex; gap: 2rem; flex-wrap: wrap; margin-top: 2rem;">
+                    <div style="flex: 1; min-width: 220px; background: #fff; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.06); padding: 1.5rem;">
+                        <h3 style="color: #667eea; font-size: 1.1rem;">Exploration & Exploitation</h3>
+                        <p style="color: #555;">Balanced approach to learning optimal policies while exploring new strategies and exploiting known successful patterns.</p>
+                    </div>
+                    <div style="flex: 1; min-width: 220px; background: #fff; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.06); padding: 1.5rem;">
+                        <h3 style="color: #667eea; font-size: 1.1rem;">Multi-Agent Systems</h3>
+                        <p style="color: #555;">Coordinated learning across multiple agents to optimize complex, interdependent decision-making scenarios.</p>
+                    </div>
+                    <div style="flex: 1; min-width: 220px; background: #fff; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.06); padding: 1.5rem;">
+                        <h3 style="color: #667eea; font-size: 1.1rem;">Interpretable Policies</h3>
+                        <p style="color: #555;">Transparent decision-making processes that can be understood and validated by business stakeholders.</p>
+                    </div>
+                    <div style="flex: 1; min-width: 220px; background: #fff; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.06); padding: 1.5rem;">
+                        <h3 style="color: #667eea; font-size: 1.1rem;">Performance Optimization</h3>
+                        <p style="color: #555;">Continuous improvement through feedback loops and adaptive policy updates based on real-world performance.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Technical Skills -->
+        <section class="skills-section">
+            <div class="container">
                 <h2>Technical Skills</h2>
                 <div class="skills-grid">
-                    <div class="skill-item">
-                        <h4>Deep Reinforcement Learning</h4>
-                        <p>Policy gradient methods, Q-learning, Actor-Critic algorithms</p>
+                    <div class="skill-category">
+                        <div class="skill-header">
+                            <i class="fas fa-brain"></i>
+                            <h3>Deep RL Algorithms</h3>
+                        </div>
+                        <ul>
+                            <li>Deep Q-Networks (DQN)</li>
+                            <li>Policy Gradient Methods</li>
+                            <li>Actor-Critic Networks</li>
+                            <li>Proximal Policy Optimization (PPO)</li>
+                        </ul>
                     </div>
-                    <div class="skill-item">
-                        <h4>Multi-agent Systems</h4>
-                        <p>Cooperative and competitive multi-agent RL, Nash equilibrium</p>
+                    <div class="skill-category">
+                        <div class="skill-header">
+                            <i class="fas fa-cogs"></i>
+                            <h3>Multi-Agent Systems</h3>
+                        </div>
+                        <ul>
+                            <li>Cooperative Learning</li>
+                            <li>Competitive Environments</li>
+                            <li>Centralized Training</li>
+                            <li>Decentralized Execution</li>
+                        </ul>
                     </div>
-                    <div class="skill-item">
-                        <h4>Policy Optimization</h4>
-                        <p>Trust Region Policy Optimization (TRPO), Proximal Policy Optimization (PPO)</p>
+                    <div class="skill-category">
+                        <div class="skill-header">
+                            <i class="fas fa-chart-bar"></i>
+                            <h3>Optimization Techniques</h3>
+                        </div>
+                        <ul>
+                            <li>Policy Optimization</li>
+                            <li>Value Function Approximation</li>
+                            <li>Experience Replay</li>
+                            <li>Curriculum Learning</li>
+                        </ul>
                     </div>
-                    <div class="skill-item">
-                        <h4>Causal Discovery</h4>
-                        <p>Structural equation modeling, causal inference in RL</p>
+                    <div class="skill-category">
+                        <div class="skill-header">
+                            <i class="fas fa-tools"></i>
+                            <h3>Tools & Frameworks</h3>
+                        </div>
+                        <ul>
+                            <li>PyTorch & TensorFlow</li>
+                            <li>OpenAI Gym</li>
+                            <li>RLlib</li>
+                            <li>Custom RL Environments</li>
+                        </ul>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <!-- Back to Home -->
-    <section class="back-home">
+        <!-- Applications -->
+        <section class="applications-section">
+            <div class="container">
+                <h2>Applications & Impact</h2>
+                <div style="display: flex; gap: 2rem; flex-wrap: wrap; margin-top: 2rem;">
+                    <div style="flex: 1; min-width: 220px; background: #fff; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.06); padding: 1.5rem;">
+                        <h3 style="color: #667eea; font-size: 1.1rem;">Gaming Engagement</h3>
+                        <p style="color: #555;">Optimizing user engagement through intelligent recommendation systems and personalized gaming experiences.</p>
+                    </div>
+                    <div style="flex: 1; min-width: 220px; background: #fff; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.06); padding: 1.5rem;">
+                        <h3 style="color: #667eea; font-size: 1.1rem;">Campaign Optimization</h3>
+                        <p style="color: #555;">Designing effective marketing campaigns through user ranking and targeting strategies.</p>
+                    </div>
+                    <div style="flex: 1; min-width: 220px; background: #fff; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.06); padding: 1.5rem;">
+                        <h3 style="color: #667eea; font-size: 1.1rem;">Performance Analytics</h3>
+                        <p style="color: #555;">Real-time analysis and optimization of platform performance metrics.</p>
+                    </div>
+                    <div style="flex: 1; min-width: 220px; background: #fff; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.06); padding: 1.5rem;">
+                        <h3 style="color: #667eea; font-size: 1.1rem;">User Behavior Modeling</h3>
+                        <p style="color: #555;">Understanding and predicting user behavior patterns for better service delivery.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
         <div class="container">
-            <a href="index.html" class="btn btn-primary">
-                <i class="fas fa-arrow-left"></i> Back to Home
-            </a>
+            <p>&copy; 2024 Debanjan Sadhukhan. All rights reserved.</p>
         </div>
-    </section>
+    </footer>
 
     <script src="script.js"></script>
 </body>

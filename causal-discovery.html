@@ -5,151 +5,249 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Causal Discovery - Debanjan Sadhukhan</title>
     <link rel="stylesheet" href="styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
-    <!-- Navigation -->
-    <nav class="navbar">
-        <div class="nav-container">
-            <div class="nav-logo">
-                <a href="index.html" style="text-decoration: none; color: inherit;">
-                    <h2>Debanjan Sadhukhan</h2>
-                </a>
-            </div>
-            <ul class="nav-menu">
-                <li><a href="index.html" class="nav-link">Home</a></li>
-                <li><a href="index.html#about" class="nav-link">About</a></li>
-                <li><a href="index.html#experience" class="nav-link">Experience</a></li>
-                <li><a href="index.html#research" class="nav-link">Research</a></li>
-                <li><a href="index.html#contact" class="nav-link">Contact</a></li>
-            </ul>
-        </div>
-    </nav>
-
-    <!-- Expertise Header -->
-    <section class="expertise-hero">
+    <header class="header">
         <div class="container">
-            <div class="expertise-header">
-                <div class="expertise-icon">
-                    <i class="fas fa-project-diagram"></i>
+            <nav class="nav">
+                <a href="index.html" class="nav-logo">DS</a>
+                <ul class="nav-menu">
+                    <li><a href="index.html#about">About</a></li>
+                    <li><a href="index.html#experience">Experience</a></li>
+                    <li><a href="index.html#research">Research</a></li>
+                    <li><a href="index.html#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="expertise-page">
+        <!-- Hero Section -->
+        <section class="hero-section" style="background: #f8f9fa; padding: 3rem 0 2rem 0; border-bottom: 1px solid #e9ecef;">
+            <div class="container">
+                <div style="display: flex; align-items: center; gap: 2rem; flex-wrap: wrap;">
+                    <div style="font-size: 2.5rem; color: #667eea; background: #fff; border-radius: 50%; width: 80px; height: 80px; display: flex; align-items: center; justify-content: center; box-shadow: 0 2px 8px rgba(0,0,0,0.06);">
+                        <i class="fas fa-project-diagram"></i>
+                    </div>
+                    <div>
+                        <h1 style="margin: 0; font-size: 2.2rem; color: #222;">Causal Discovery</h1>
+                        <p style="margin: 0.5rem 0 0 0; color: #555;">Causal Inference & Structural Equation Modeling</p>
+                        <p style="margin: 1rem 0 0 0; color: #666; max-width: 600px;">Uncovering hidden causal relationships in complex systems through advanced causal discovery techniques</p>
+                    </div>
                 </div>
-                <h1>Causal Discovery</h1>
-                <p>Causal inference, Structural equation modeling</p>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <!-- Expertise Content -->
-    <section class="expertise-content">
-        <div class="container">
-            <div class="expertise-description">
+        <!-- Research Overview -->
+        <section class="overview-section">
+            <div class="container">
                 <h2>Research Overview</h2>
-                <p>
-                    My research in Causal Discovery focuses on developing novel techniques to discover causal relationships in volatile 
-                    user behavior patterns. I specialize in structural equation modeling and causal inference methods that enable 
-                    interpretable AI solutions for personalized treatments and engagement strategies.
-                </p>
+                <div style="display: flex; gap: 2rem; flex-wrap: wrap; margin-top: 2rem;">
+                    <div style="flex: 1; min-width: 220px; background: #fff; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.06); padding: 1.5rem;">
+                        <h3 style="color: #667eea; font-size: 1.1rem;">Innovation</h3>
+                        <p style="color: #555;">Developing novel causal discovery techniques for volatile user behavior patterns in gaming and digital platforms.</p>
+                    </div>
+                    <div style="flex: 1; min-width: 220px; background: #fff; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.06); padding: 1.5rem;">
+                        <h3 style="color: #667eea; font-size: 1.1rem;">Problem Solving</h3>
+                        <p style="color: #555;">Addressing the challenge of understanding cause-and-effect relationships in complex, dynamic systems.</p>
+                    </div>
+                    <div style="flex: 1; min-width: 220px; background: #fff; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.06); padding: 1.5rem;">
+                        <h3 style="color: #667eea; font-size: 1.1rem;">Impact</h3>
+                        <p style="color: #555;">Enabling data-driven decision making through interpretable causal models and personalized interventions.</p>
+                    </div>
+                </div>
             </div>
+        </section>
 
-            <div class="research-papers">
+        <!-- Key Publications -->
+        <section class="publications-section">
+            <div class="container">
                 <h2>Key Publications</h2>
-                
-                <div class="paper-card">
-                    <div class="paper-header">
-                        <h3>EFfECT-RL: Enabling Framework for Establishing Causality and Triggering Engagement through RL</h3>
-                        <span class="venue">ACM CIKM 2024</span>
+                <div class="publications-grid">
+                    <div class="publication-card featured">
+                        <div class="publication-header">
+                            <div class="publication-badge">Featured</div>
+                            <h3>EFfECT-RL: Enabling Framework for Establishing Causality and Triggering Engagement through RL</h3>
+                            <div class="publication-meta">
+                                <span class="venue">CIKM 2024</span>
+                                <span class="authors">D. Sadhukhan et al.</span>
+                            </div>
+                        </div>
+                        <div class="publication-content">
+                            <div class="publication-abstract">
+                                <h4>Abstract</h4>
+                                <p>This paper introduces a novel causal discovery technique for volatile user gameplay behavior, combining causal inference with reinforcement learning to create interpretable engagement strategies. The framework addresses the challenge of establishing causality in dynamic user behavior patterns.</p>
+                            </div>
+                            <div class="publication-highlights">
+                                <h4>Key Contributions</h4>
+                                <ul>
+                                    <li>Novel causal discovery technique for volatile user behavior</li>
+                                    <li>Integration of causal inference with reinforcement learning</li>
+                                    <li>Interpretable engagement optimization framework</li>
+                                    <li>Real-world validation on gaming platform data</li>
+                                </ul>
+                            </div>
+                            <div class="publication-links">
+                                <a href="https://dl.acm.org/doi/abs/10.1145/3627673.3680058" target="_blank" class="btn btn-primary">
+                                    <i class="fas fa-external-link-alt"></i> View Paper
+                                </a>
+                                <a href="Papers/Conferences/effect_Rl (10).pdf" target="_blank" class="btn btn-secondary">
+                                    <i class="fas fa-download"></i> Download PDF
+                                </a>
+                            </div>
+                        </div>
                     </div>
-                    <div class="paper-abstract">
-                        <p>
-                            This paper presents a novel causal discovery technique for volatile user gameplay behavior. The framework 
-                            establishes causality in complex user interaction patterns and uses this understanding to generate 
-                            personalized treatments through reinforcement learning.
-                        </p>
-                        <p>
-                            <strong>Key Contributions:</strong>
-                        </p>
-                        <ul>
-                            <li>Novel causal discovery technique for volatile user behavior</li>
-                            <li>Framework for establishing causality in complex interactions</li>
-                            <li>Personalized treatment generation through causal understanding</li>
-                            <li>Integration of causal discovery with reinforcement learning</li>
-                        </ul>
-                    </div>
-                    <div class="paper-links">
-                        <a href="https://dl.acm.org/doi/abs/10.1145/3627673.3680058" target="_blank" class="paper-link">
-                            <i class="fas fa-external-link-alt"></i> View on ACM Digital Library
-                        </a>
-                        <a href="Papers/Conferences/effect_Rl (10).pdf" target="_blank" class="paper-link">
-                            <i class="fas fa-file-pdf"></i> Download PDF
-                        </a>
-                    </div>
-                </div>
 
-                <div class="paper-card">
-                    <div class="paper-header">
-                        <h3>Generalized Experiment Conclusion Framework for Extremely Volatile Data</h3>
-                        <span class="venue">ACM IKDD CODS and COMAD 2024</span>
-                    </div>
-                    <div class="paper-abstract">
-                        <p>
-                            This work addresses the challenge of drawing reliable conclusions from extremely volatile data through 
-                            a generalized experiment conclusion framework. The approach provides robust methods for causal inference 
-                            in highly dynamic environments.
-                        </p>
-                        <p>
-                            <strong>Key Contributions:</strong>
-                        </p>
-                        <ul>
-                            <li>Generalized framework for volatile data analysis</li>
-                            <li>Robust causal inference in dynamic environments</li>
-                            <li>Reliable experiment conclusion methods</li>
-                            <li>Applications in highly volatile user behavior</li>
-                        </ul>
-                    </div>
-                    <div class="paper-links">
-                        <a href="https://dl.acm.org/doi/10.1145/3703323.3704276" target="_blank" class="paper-link">
-                            <i class="fas fa-external-link-alt"></i> View on ACM Digital Library
-                        </a>
-                        <a href="Papers/Conferences/generalize_AB.pdf" target="_blank" class="paper-link">
-                            <i class="fas fa-file-pdf"></i> Download PDF
-                        </a>
+                    <div class="publication-card">
+                        <div class="publication-header">
+                            <h3>Generalized Experiment Conclusion Framework for Extremely Volatile Data</h3>
+                            <div class="publication-meta">
+                                <span class="venue">CODS-COMAD 2024</span>
+                                <span class="authors">S. Anand et al.</span>
+                            </div>
+                        </div>
+                        <div class="publication-content">
+                            <div class="publication-abstract">
+                                <h4>Abstract</h4>
+                                <p>A comprehensive framework for drawing reliable conclusions from experiments involving extremely volatile data. The approach addresses the challenges of statistical significance in highly variable environments.</p>
+                            </div>
+                            <div class="publication-highlights">
+                                <h4>Key Features</h4>
+                                <ul>
+                                    <li>Robust statistical analysis for volatile data</li>
+                                    <li>Generalized framework for experiment evaluation</li>
+                                    <li>Reliable conclusion drawing methods</li>
+                                    <li>Application to real-world volatile datasets</li>
+                                </ul>
+                            </div>
+                            <div class="publication-links">
+                                <a href="https://dl.acm.org/doi/10.1145/3703323.3704276" target="_blank" class="btn btn-primary">
+                                    <i class="fas fa-external-link-alt"></i> View Paper
+                                </a>
+                                <a href="Papers/Conferences/generalize_AB.pdf" target="_blank" class="btn btn-secondary">
+                                    <i class="fas fa-download"></i> Download PDF
+                                </a>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
+        </section>
 
-            <div class="expertise-skills">
+        <!-- Methodology -->
+        <section class="methodology-section">
+            <div class="container">
+                <h2>Methodology & Approach</h2>
+                <div style="display: flex; gap: 2rem; flex-wrap: wrap; margin-top: 2rem;">
+                    <div style="flex: 1; min-width: 220px; background: #fff; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.06); padding: 1.5rem;">
+                        <h3 style="color: #667eea; font-size: 1.1rem;">Causal Discovery</h3>
+                        <p style="color: #555;">Advanced algorithms to identify causal relationships from observational data, uncovering hidden dependencies in complex systems.</p>
+                    </div>
+                    <div style="flex: 1; min-width: 220px; background: #fff; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.06); padding: 1.5rem;">
+                        <h3 style="color: #667eea; font-size: 1.1rem;">Structural Equation Modeling</h3>
+                        <p style="color: #555;">Mathematical framework for modeling complex causal relationships and testing theoretical assumptions about data.</p>
+                    </div>
+                    <div style="flex: 1; min-width: 220px; background: #fff; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.06); padding: 1.5rem;">
+                        <h3 style="color: #667eea; font-size: 1.1rem;">Interpretable Models</h3>
+                        <p style="color: #555;">Transparent causal models that provide clear explanations of cause-and-effect relationships for stakeholders.</p>
+                    </div>
+                    <div style="flex: 1; min-width: 220px; background: #fff; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.06); padding: 1.5rem;">
+                        <h3 style="color: #667eea; font-size: 1.1rem;">Volatile Data Handling</h3>
+                        <p style="color: #555;">Specialized techniques for analyzing and drawing conclusions from highly variable and unpredictable data patterns.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Technical Skills -->
+        <section class="skills-section">
+            <div class="container">
                 <h2>Technical Skills</h2>
                 <div class="skills-grid">
-                    <div class="skill-item">
-                        <h4>Causal Inference</h4>
-                        <p>Counterfactual reasoning, causal effect estimation, confounding control</p>
+                    <div class="skill-category">
+                        <div class="skill-header">
+                            <i class="fas fa-project-diagram"></i>
+                            <h3>Causal Discovery Algorithms</h3>
+                        </div>
+                        <ul>
+                            <li>PC Algorithm</li>
+                            <li>GES (Greedy Equivalence Search)</li>
+                            <li>FCI (Fast Causal Inference)</li>
+                            <li>LiNGAM (Linear Non-Gaussian Acyclic Models)</li>
+                        </ul>
                     </div>
-                    <div class="skill-item">
-                        <h4>Structural Equation Modeling</h4>
-                        <p>Path analysis, latent variable modeling, causal path identification</p>
+                    <div class="skill-category">
+                        <div class="skill-header">
+                            <i class="fas fa-chart-bar"></i>
+                            <h3>Statistical Methods</h3>
+                        </div>
+                        <ul>
+                            <li>Structural Equation Modeling</li>
+                            <li>Bayesian Networks</li>
+                            <li>Granger Causality</li>
+                            <li>Instrumental Variables</li>
+                        </ul>
                     </div>
-                    <div class="skill-item">
-                        <h4>Volatile Data Analysis</h4>
-                        <p>Dynamic causal modeling, time-varying relationships, robust inference</p>
+                    <div class="skill-category">
+                        <div class="skill-header">
+                            <i class="fas fa-tools"></i>
+                            <h3>Implementation Tools</h3>
+                        </div>
+                        <ul>
+                            <li>Python (causal-learn, pywhy)</li>
+                            <li>R (pcalg, bnlearn)</li>
+                            <li>Custom causal discovery frameworks</li>
+                            <li>Real-time causal inference systems</li>
+                        </ul>
                     </div>
-                    <div class="skill-item">
-                        <h4>Personalized Treatments</h4>
-                        <p>Causal treatment effects, heterogeneous treatment effects, personalized interventions</p>
+                    <div class="skill-category">
+                        <div class="skill-header">
+                            <i class="fas fa-brain"></i>
+                            <h3>Advanced Techniques</h3>
+                        </div>
+                        <ul>
+                            <li>Time-series causal discovery</li>
+                            <li>High-dimensional causal inference</li>
+                            <li>Non-linear causal relationships</li>
+                            <li>Causal reinforcement learning</li>
+                        </ul>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <!-- Back to Home -->
-    <section class="back-home">
+        <!-- Applications -->
+        <section class="applications-section">
+            <div class="container">
+                <h2>Applications & Impact</h2>
+                <div style="display: flex; gap: 2rem; flex-wrap: wrap; margin-top: 2rem;">
+                    <div style="flex: 1; min-width: 220px; background: #fff; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.06); padding: 1.5rem;">
+                        <h3 style="color: #667eea; font-size: 1.1rem;">Gaming Behavior Analysis</h3>
+                        <p style="color: #555;">Understanding causal relationships in user gameplay patterns to optimize engagement strategies.</p>
+                    </div>
+                    <div style="flex: 1; min-width: 220px; background: #fff; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.06); padding: 1.5rem;">
+                        <h3 style="color: #667eea; font-size: 1.1rem;">User Behavior Modeling</h3>
+                        <p style="color: #555;">Identifying cause-and-effect relationships in user interactions for personalized experiences.</p>
+                    </div>
+                    <div style="flex: 1; min-width: 220px; background: #fff; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.06); padding: 1.5rem;">
+                        <h3 style="color: #667eea; font-size: 1.1rem;">Performance Optimization</h3>
+                        <p style="color: #555;">Using causal insights to optimize platform performance and user satisfaction metrics.</p>
+                    </div>
+                    <div style="flex: 1; min-width: 220px; background: #fff; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.06); padding: 1.5rem;">
+                        <h3 style="color: #667eea; font-size: 1.1rem;">Intervention Design</h3>
+                        <p style="color: #555;">Designing effective interventions based on causal understanding of user behavior patterns.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
         <div class="container">
-            <a href="index.html" class="btn btn-primary">
-                <i class="fas fa-arrow-left"></i> Back to Home
-            </a>
+            <p>&copy; 2024 Debanjan Sadhukhan. All rights reserved.</p>
         </div>
-    </section>
+    </footer>
 
     <script src="script.js"></script>
 </body>
