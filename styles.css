@@ -1024,35 +1024,7 @@ section {
         justify-content: center;
     }
 
-    /* RAG Methodology Styles */
-    .rag-methodology {
-        display: flex;
-        flex-direction: column;
-        gap: 2rem;
-    }
 
-    .rag-step {
-        background: #f8f9fa;
-        padding: 2rem;
-        border-radius: 15px;
-        border-left: 4px solid #007bff;
-    }
-
-    .rag-step h3 {
-        color: #007bff;
-        margin-bottom: 1rem;
-        font-size: 1.3rem;
-    }
-
-    .rag-step ol {
-        margin-left: 1.5rem;
-        margin-top: 1rem;
-    }
-
-    .rag-step li {
-        margin-bottom: 0.5rem;
-        line-height: 1.6;
-    }
 
     .process-flow {
         display: flex;
@@ -1318,9 +1290,7 @@ section {
             padding: 1.5rem;
         }
 
-        .rag-step {
-            padding: 1.5rem;
-        }
+
 
         /* Table mobile styles */
         .clustering-table {
@@ -1386,7 +1356,7 @@ section {
     }
 } 
 
-/* Creative Multimodal-RAG Page Styles */
+/* Creative Multimodal Analysis Page Styles */
 
 /* Hero Section */
 .hero-section {
@@ -1794,18 +1764,7 @@ section {
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
 }
 
-/* RAG Section */
-.rag-section {
-    padding: 6rem 0;
-    background: white;
-}
 
-.rag-content {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 4rem;
-    align-items: start;
-}
 
 .explanation-card {
     background: linear-gradient(135deg, #667eea, #764ba2);
@@ -1825,12 +1784,7 @@ section {
     opacity: 0.9;
 }
 
-.rag-process h3 {
-    font-size: 1.8rem;
-    margin-bottom: 2rem;
-    color: #333;
-    text-align: center;
-}
+
 
 .process-timeline {
     display: flex;
@@ -2049,10 +2003,7 @@ section {
         gap: 2rem;
     }
 
-    .rag-content {
-        grid-template-columns: 1fr;
-        gap: 2rem;
-    }
+
 
     .process-timeline {
         flex-direction: column;
